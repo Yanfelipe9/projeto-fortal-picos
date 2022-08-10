@@ -1,0 +1,192 @@
+@media screen and (min-width: 1240px) {
+    
+    .card-category{
+        width: 26em;
+        height: 30em;
+    }
+
+    .card-image{
+        height: 16em;
+    }
+
+    #top-section-text #top-title{
+        font-size: 2.5em;
+    }
+    #top-section-text #top-description{
+        font-size: 1.5em;
+    }
+
+    .card-title{
+        font-size: 2.5em;
+    }
+
+    .card-description{
+        font-size: 1.1em;
+    }
+
+    #aside-cards-title{
+        font-size: 2.5em;
+    }
+
+    .aside-card-description{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:1240px){
+    .card-category{
+        height: 25em;
+    } 
+    
+}
+
+@media screen and (max-width:951px){
+
+    #header-icon{
+        display: none;
+    }
+    .card-category{
+        width: 24em;
+    }
+    
+    .card-image{
+        height: 14em;
+    }
+
+    .main-content{
+        
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "card-section "
+        "aside-cards";
+        gap: 0.8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #aside-cards{
+        min-width: auto;
+    }
+
+   .aside-card-description{
+        font-size: 1.4em;
+    }
+   
+}
+
+ @media screen and (max-width:460px){
+
+    #header{
+        justify-content: center;
+    }
+
+    #headerBtnGroup{
+        display: none;
+    }
+    .card-category{
+        width: 22em;
+        height: 24em;
+    }
+    
+    .card-image{
+        height: 14em;
+    }
+
+    .aside-card-description{
+        font-size: 1.1em;
+    }
+
+    #footer img{
+        width: 3em;
+    }
+
+    #footer-link{
+        font-size: 0.9em;
+    }
+} 
+ 
+@media screen and (max-width:400px){
+
+    #top-section-text #top-title{
+        font-size: 1.7em;
+    }
+    #top-section-text #top-description{
+        font-size: 1em;
+    }
+    .card-category{
+        width: 20em;
+        height: 26em;
+    }
+    
+    .card-image{
+        height: 13em;
+    }
+
+   
+}
+
+@media screen and (max-width:380px){
+
+    #top-section-text #top-title{
+        font-size: 1.5em;
+    }
+
+    #top-section-text #top-description{
+        font-size: 0.9em;
+    }
+
+    .card-description{
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width:330px){
+
+    #top-section-text #top-title{
+        font-size: 1.5em;
+    }
+
+    #top-section-text #top-description{
+        font-size: 1em;
+    }
+
+    .card-category{
+        width: 16em;
+        height: 23em;
+    }
+    
+    .card-image{
+        height: 10em;
+    }
+
+
+   
+}
+
+@media screen and (max-width:300px){
+
+    #top-section-text #top-title{
+        font-size: 1.4em;
+    }
+
+    #top-section-text #top-description{
+        font-size: 0.9em;
+    }
+
+    #footer{
+        padding: 0.7em 0.4em;
+    }
+
+    #footer-link{
+        font-size: 0.7em;
+    }
+
+   
+} 
+
+
+
+
+    
