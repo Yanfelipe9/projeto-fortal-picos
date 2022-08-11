@@ -86,7 +86,7 @@
     }
     .card-category{
         width: 22em;
-        height: 24em;
+        height: 25.5em;
     }
     
     .card-image{
@@ -131,11 +131,6 @@
     #top-section-text #top-title{
         font-size: 1.5em;
     }
-
-    #top-section-text #top-description{
-        font-size: 0.9em;
-    }
-
     .card-description{
         font-size: 0.9em;
     }

@@ -222,7 +222,8 @@
 
 .aside-card-description{
     font-family: var(--font_secundario);
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: 100;
     text-align: center;
 }
 
